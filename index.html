@@ -1,0 +1,103 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="custom.css">
+</head>
+
+    <h1 id="title"> Marriage Fidelity Test Form</h1>
+
+<body>
+
+  <div class="form-container">
+    <form action="" method="" id="survey-form">
+      <legend id="description">Let us know how we can improve your marriage</legend>
+      <hr class="formLine">
+      <br>
+      <div class="form-group">
+        <label for="name" id="name-label">*Name</label>
+      <input type="text" id="name" placeholder="Enter your Name" required>
+      </div>
+      <br>
+     <div class="form-group">
+        <label for="email" id="email-label">*Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="number" id="number-label">*Age</label>
+      <input type="number" id="number" name="number" placeholder="Enter your Age">
+      </div>
+      <br>
+      <hr class="formLine">
+      <div class="form-group">
+        <label for="">Which option best describes your current status?</label>
+    <select name="cars" value="Student" id="dropdown">
+    <option value="student">Married and Happy</option>
+    <option value="fulltime">Married and Searching</option>
+   <option value="learner">Divorced</option>
+    <option value="prefer">Widowed</option>
+    <option value="others">Others</option>
+  </select>
+      </div>
+        <hr class="formLine">
+      <br>
+      <div class="form-group">
+       <label for="recommend">
+          Can you vouch that your spouse is faithful?
+       </label>
+
+        <p class="suggestion">
+        <input type="radio" name="recommend" value="Definitely" checked> Definitely<br>
+        <input type="radio" name="recommend" value="May Be"> May Be<br>
+        <input type="radio" name="recommend" value="Not Sure"> Not Sure
+      </p>
+
+      </div>
+      <br>
+      <hr class="formLine">
+<label for="">What do you like most in Marriage?</label>
+
+        <select name="cars" value="Select an option">
+    <option value="student">Select an option</option>
+    <option value="student">Companionship</option>
+    <option value="fulltime">Sex</option>
+   <option value="learner">Conviviality</option>
+    <option value="prefer">Indepedence</option>
+
+  </select>
+  <br>
+  <hr class="formLine">
+<div class="form-group">
+<label for="suggestion">
+Have you ever cheated on your spouse? Why or Why Not?
+(Check all that apply):</label>
+<p class="suggestion">
+        <input type="checkbox" name="suggestion" value="1" checked> My Spouse is the best<br>
+        <input type="checkbox" name="suggestion" value="2"> My Spouse is a cheat<br>
+        <input type="checkbox" name="suggestion" value="3"> I cheat for fun <br>
+        <input type="checkbox" name="suggestion" value="4"> I love my Spouse<br>
+        <input type="checkbox" name="suggestion" value="5"> My spouse cannot satisfy me in bed<br>
+        <input type="checkbox" name="suggestion" value="6">We do not Love each other <br>
+        <input type="checkbox" name="suggestion" value="7">My Spouse now loves someone else <br>
+        <input type="checkbox" name="suggestion" value="8"> I love my spouse but I cheat for fun<br>
+        <input type="checkbox" name="suggestion" value="9"> I love my wife and will always be faithful to him<br>
+        <input type="checkbox" name="suggestion" value="10">I love my husband and will always be faithful to her <br>
+  </p>
+</div>
+<div class="form-group">
+<label for="comments">A Word for your spouse?</label>
+<textarea placeholder="Enter your comments here..."></textarea>
+</div>
+<hr class="formLine">
+<div class="form-group">
+<button class="myBtn" id="submit" type="submit">Submit Form</button>
+</div>
+    </form>
+  </div>
+
+</body>
+</html>
